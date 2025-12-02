@@ -12,8 +12,8 @@ const CategoryFilter = () => {
                     key={cat}
                     onClick={() => setActive(cat)}
                     className={`px-4 py-2 rounded-full border transition ${active === cat
-                            ? "bg-blue-600 text-white border-blue-600"
-                            : "bg-white text-gray-600 border-gray-300 hover:bg-gray-100"
+                        ? "bg-yellow-500 text-white border-yellow-600"
+                        : "bg-white text-gray-600 border-gray-300 hover:bg-gray-100"
                         }`}
                 >
                     {cat}
