@@ -86,7 +86,7 @@ const ThankYou = () => {
     const handleBackToEvent = () => {
         console.log("Navigating back to event...");
         // In a real router setup: navigate('/event/123');
-        window.location.href = "/";
+        window.location.href = "/event";
     };
 
     return (

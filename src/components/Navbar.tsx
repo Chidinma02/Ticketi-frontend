@@ -9,9 +9,10 @@ const Navbar = () => {
         <nav className="flex items-center justify-between px-8 py-4 bg-white  fixed w-full top-0 z-50">
             {/* <h1 className="text-2xl font-extrabold text-black-600">Partynodeystop</h1> */}
 
-            <h1 className="text-2xl font-extrabold text-black-600 font-['Space_Grotesk'] tracking-tight">
-                Partynodeystop
-            </h1>
+
+
+            <h1>  <span className="text-sm font-semibold tracking-widest uppercase text-neutral-900">The Platform</span></h1>
+
             <ul className="hidden md:flex gap-8 font-bold text-black" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 <li>
                     <a href="/" className="cursor-pointer hover:text-neutral-600 transition-colors">Home</a>
